@@ -3,8 +3,6 @@
  * Fakiri Yassine
  * 07/11/22
  */
-
-using System;
 namespace NombreCache
 {
     class program
@@ -23,7 +21,6 @@ namespace NombreCache
                 catch
                 {
                     Console.WriteLine("Erreur de saisie : saisissez un nombre entier");
-
                 }
             }
             correct = false;
@@ -42,7 +39,6 @@ namespace NombreCache
                         Console.WriteLine("Erreur de saisie : saisissez un nombre entier");
                     }
                 }
-               
                 if (val > nbAChercher)
                 {
                     Console.WriteLine("--> trop grand !");
